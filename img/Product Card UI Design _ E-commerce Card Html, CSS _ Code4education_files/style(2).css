@@ -1,0 +1,85 @@
+/*
+Theme Name: Code4education_newscard
+Theme URI: https://codes4education.com/
+Template: newscard
+Author: Code4education
+Author URI: https://codes4education.com/
+Description: Code4education provides free resources to inspire design-focused frontend developers. Improve your coding skills with our programs and coding tutorials.
+Tags: code4education,code4education web,code4education tutorial in hindi,code4education youtube,code4education learning socuce,code4education website
+Version: 1.2.6.1601717693
+Updated: 2020-10-03 09:34:53
+
+*/
+
+/* course page styling */
+.tutor-course-name.tutor-fs-5.tutor-fw-medium{
+	font-size: 18px !important;
+}
+.tutor-course-loop-level,
+.tutor-course-loop-header-meta .tutor-course-wishlist:hover,
+.tutor-text-avatar,
+.tutor-single-add-to-cart-box .tutor-enroll-form .tutor-course-enroll-wrap button,
+.tutor-single-page-top-bar,
+#tutor-lesson-sidebar-qa-tab-content .tutor-add-question-wrap button.tutor_ask_question_btn{
+	background-color: #087C08 !important;
+	border-color: #087C08;
+}
+.tutor-lesson-sidebar-hide-bar,
+.tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button:hover{
+	background-color: #0b4f0b;
+	border-color: #0b4f0b;
+}
+.tutor-course-loop-title h2 a:hover,
+.tutor-loop-author>div a:hover,
+.tutor-single-course-meta.tutor-lead-meta ul li a:hover,
+.tutor-course-lesson h5 a:hover,
+.tutor-course-topics-contents .tutor-course-title h4,
+.tutor-single-course-meta ul li.tutor-social-share button:hover,
+.tutor-tabs-btn-group a i,
+.tutor-topics-in-single-lesson .tutor-topics-title h3{
+	color: #087c08;
+}
+.tutor-course-lesson h5 a,
+.tutor-single-course-meta ul li.tutor-social-share button,
+#tutor-lesson-sidebar-qa-tab-content .tutor-add-question-wrap h3{
+	color: #4B5981;
+}
+
+.tutor-loop-author>div a,
+.tutor-loop-author>div span{
+	font-size: 15px;
+}
+.tutor-meta,
+.tutor-fs-6{
+	pointer-events: none;
+	cursor: default;
+}
+.tutor-pagination-wrapper-replaceable{
+	margin-bottom: 50px;
+}
+/* complete course btn */
+.tutor-single-page-top-bar .tutor-single-lesson-segment, .tutor-single-page-top-bar .tutor-single-lesson-segment form,
+.tutor-course-loop-price>.price .tutor-loop-cart-btn-wrap a::before{
+	display: none;
+}
+.tutor-course-loop-price>.price .tutor-loop-cart-btn-wrap a{
+	font-weight: 600;
+	color: #000;
+}
+.tutor-course-loop-price>.price .tutor-loop-cart-btn-wrap a:hover{
+	color: #087C08;
+}
+.tutor-course-header-h1,
+.tutor-price-preview-box .price{
+	font-size: 25px;
+}
+.page-header, .page-header .page-title{
+	overflow-y: hidden;
+}
+
+.tutor-btn.tutor-btn-ghost.tutor-course-wishlist-btn{
+	display: none;
+}
+#tutor-course-spotlight-overview .tutor-col-xl-8{
+	width: 95%;
+}
